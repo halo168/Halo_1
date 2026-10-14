@@ -710,13 +710,7 @@
       document.getElementById("statUnvisitedCount").textContent = `${unvisitedCount} 個`;
       document.getElementById("statUnvisitedRatio").textContent = `${unvisitedRatio}%`;
 
-      // 頻次細目
-      document.getElementById("count4").textContent = tierCounts[4];
-      document.getElementById("count3").textContent = tierCounts[3];
-      document.getElementById("count2").textContent = tierCounts[2];
-      document.getElementById("count1").textContent = tierCounts[1];
-      document.getElementById("count0").textContent = tierCounts[0];
-
+      
       // 更新用戶標籤狀態
       USERS.forEach(u => {
         const btn = document.getElementById(`pill-${u}`);
